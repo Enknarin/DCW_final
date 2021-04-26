@@ -35,9 +35,10 @@ const Profile1 = ({ token }) => {
             <Head>
                 <title>User profile</title>
             </Head>
-            <div className={styles.container}>
+            <div >
                 <Navbar />
                 <h1>User profile</h1>
+                
                 <div>
                     <b>Token:</b> {token.substring(0, 15)}... <br /><br />
                     This route is protected by token, user is required to login first.

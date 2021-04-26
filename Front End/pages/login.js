@@ -58,7 +58,7 @@ export default function Login({ token }) {
       <Head>
         <title>Login Page</title>
       </Head>
-      <div className={styles.container}>
+      <div >
         <Navbar />
         <h1>Login</h1>
         <div>

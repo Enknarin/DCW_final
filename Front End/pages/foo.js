@@ -35,7 +35,7 @@ const Foo = ({ token }) => {
             <Head>
                 <title>foo</title>
             </Head>
-            <div className={styles.container}>
+            <div >
                 <Navbar />
                 <div>
                     <h1>{JSON.stringify(user)}</h1>
